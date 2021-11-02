@@ -61,7 +61,7 @@ export default function Login() {
                         />
 
                         <button
-                            disbaled={isInvalid}
+                            disabled={isInvalid}
                             type="submit"
                             className={
                                 `bg-blue-medium text-white w-full rounded h-8 font-bold
